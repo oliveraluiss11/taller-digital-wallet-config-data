@@ -1,0 +1,16 @@
+server:
+  port: 0
+spring:
+  datasource:
+    url: jdbc:postgresql://monorail.proxy.rlwy.net:17895/railway
+    username: postgres
+    password: d-3fE2bbfgfaABEd2FDGG3g**ge*dd61
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    enabled: false
+    locations: classpath:db-migration
