@@ -4,9 +4,9 @@ spring:
   kafka:
     bootstrap-server: localhost:9092
   datasource:
-    url: jdbc:postgresql://monorail.proxy.rlwy.net:17895/railway
+    url: jdbc:postgresql://viaduct.proxy.rlwy.net:11135/railway
     username: postgres
-    password: d-3fE2bbfgfaABEd2FDGG3g**ge*dd61
+    password: -gE4DCa15E1AfGeC66CF2gBD*4*bdE*a
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
