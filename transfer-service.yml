@@ -1,6 +1,8 @@
 server:
   port: 0
 spring:
+  kafka:
+    bootstrap-server: localhost:9092
   datasource:
     url: jdbc:postgresql://monorail.proxy.rlwy.net:17895/railway
     username: postgres
