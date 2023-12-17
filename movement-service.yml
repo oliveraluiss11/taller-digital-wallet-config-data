@@ -1,6 +1,6 @@
 server:
   port: 0
-spring:}
+spring:
   kafka:
     bootstrap-server: localhost:9092
   data:
